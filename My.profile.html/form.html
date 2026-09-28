@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom Cleaning Record</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="flex space-x-4 justify-center text-xl">
+                <li><a href="#" class="text-blue-500 hover:text-blue-700 transition">Home</a></li>
+                <li><a href="#" class="text-blue-500 hover:text-blue-700 transition">About</a></li>
+                <li><a href="schedule.html" class="text-blue-500 hover:text-blue-700 transition">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="bg-blue-500 p-6 rounded-lg border shadow-md max-w-md mx-auto mt-10">
+            <h1 class="text-xl font-bold mb-4 text-center">Classroom Cleaning Record</h1>
+    <form>
+        <label for="classroom" class="font-medium text-s text-white">Classroom:</label>
+        <select id="classroom" name="classroom" class="bg-gray-300 hover:bg-gray-400 text-800 font-semibold py-2 px-4 rounded">
+            <option value="class1" class="font-medium bg-gray-400">x-1</option>
+            <option value="class2" class="font-medium bg-gray-400">x-2</option>
+            <option value="class3" class="font-medium bg-gray-400">x-3</option>
+            <option value="class4" class="font-medium bg-gray-400">x-4</option>
+        </select>
+
+
+     <div class="text-left pt-1">
+        <h1 class="text-xs font-bold tracking-wider text-blue-500 mb-3">CLASSROOM CLEANING</h1>
+        <form action="#" method="POST" class="space-y-3"></form>
+     <div>
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name" placeholder="Enter your name" required class="w-full px-3 py-2 text-xs bg-gray-900 text-white rounded border border-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-500">
+     </div>
+     <div>
+        <label for="Date">Date</label>
+        <input type="Date" id="day" name="day" placeholder="Enter the day" required
+         class="w-full px-3 py-2 text-xs bg-gray-900 text-white rounded border border-gray-900 placeholder-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500">
+     <div>
+         <label for="time">Time</label>
+            <input type="time" id="time" name="time" required
+            class="w-full px-3 py-2 text-xs bg-gray-900 text-white rounded border border-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-500">
+     </div>
+        <div>
+            <label for="task">Task completed</label>w
+            <textarea id="task" name="task" placeholder="What do you want to clean?" required class="w-full px-3 py-2 text-xs bg-gray-900 text-white rounded border border-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-500"></textarea>
+        </div>
+        <button type="Submit" class=" py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-medium text-xm rounded transition-colors shadow">Submit</button>
+    </form>
+    </main>
+     </div>
+     </div>
+</body>
+</html
